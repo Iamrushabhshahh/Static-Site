@@ -1,0 +1,49 @@
+/* Add your custom styles here */
+
+/* Increase letter spacing */
+h1 {
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 2rem; /* Adjust the size as needed */
+    font-family: 'Arial', sans-serif; /* Change the font family */
+}
+
+/* Decrease letter spacing */
+p {
+    letter-spacing: 1px;
+}
+
+
+/* Center the footer */
+footer {
+    text-align: center;
+}
+
+/* Adjust the image size with padding */
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+
+.footer ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+}
